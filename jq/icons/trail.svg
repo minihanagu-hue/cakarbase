@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="山林踏查（山徑・三角點）" style="color:#1d1a17">
+<defs>
+<filter id="trail-f" x="-8%" y="-8%" width="116%" height="116%" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="51" result="n"/>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="4.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="1" seed="58" result="g"/>
+<feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  14 0 0 0 -3.1" result="spk"/>
+<feComposite in="d" in2="spk" operator="in"/>
+</filter>
+<mask id="trail-m" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200">
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+<path d="M8 180 L88 44 L120 94 L148 66 L194 180 Z"/>
+<path d="M22 180 L34 150 L46 180 Z"/><path d="M160 180 L170 152 L182 180 Z"/>
+<path d="M88 14 L76 38 L100 38 Z"/>
+</g>
+<g fill="#000" stroke="#000" stroke-linecap="round" stroke-linejoin="round"><path d="M84 180 C126 170 70 152 102 140 C130 130 84 116 104 102 C118 94 96 80 88 66" fill="none" stroke-width="6"/><path d="M8 186 H194" fill="none" stroke-width="3"/></g>
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></g>
+</mask>
+</defs>
+<g filter="url(#trail-f)"><rect x="0" y="0" width="200" height="200" fill="currentColor" mask="url(#trail-m)"/></g>
+</svg>

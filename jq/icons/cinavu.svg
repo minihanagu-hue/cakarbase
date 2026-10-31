@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="吉拿富（葉包糯食）" style="color:#1d1a17">
+<defs>
+<filter id="cinavu-f" x="-8%" y="-8%" width="116%" height="116%" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="30" result="n"/>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="4.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="1" seed="37" result="g"/>
+<feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  14 0 0 0 -3.1" result="spk"/>
+<feComposite in="d" in2="spk" operator="in"/>
+</filter>
+<mask id="cinavu-m" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200">
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+<path d="M100 28 Q108 26 112 36 L170 150 Q172 160 160 162 Q100 174 40 162 Q28 160 30 150 L88 36 Q92 26 100 28 Z"/>
+<path d="M100 28 C104 14 120 8 132 12 C124 22 112 28 100 32 Z"/>
+<path d="M12 178 Q100 170 188 178 L188 186 Q100 192 12 186 Z"/>
+</g>
+<g fill="#000" stroke="#000" stroke-linecap="round" stroke-linejoin="round"><path d="M100 34 V160" fill="none" stroke-width="3.2"/><path d="M100 34 L66 156" fill="none" stroke-width="3.2"/><path d="M100 34 L134 156" fill="none" stroke-width="3.2"/><path d="M54 118 Q100 132 146 116" fill="none" stroke-width="5"/><circle cx="100" cy="124" r="7" stroke="none"/><path d="M100 128 L90 152" fill="none" stroke-width="3.4"/><path d="M100 128 L112 150" fill="none" stroke-width="3.4"/><path d="M104 28 C112 24 120 20 128 16" fill="none" stroke-width="2.4"/></g>
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"><circle cx="100" cy="124" r="2.4" fill="#000"/></g>
+</mask>
+</defs>
+<g filter="url(#cinavu-f)"><rect x="0" y="0" width="200" height="200" fill="currentColor" mask="url(#cinavu-m)"/></g>
+</svg>

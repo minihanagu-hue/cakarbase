@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="芋葉" style="color:#1d1a17">
+<defs>
+<filter id="taro-f" x="-8%" y="-8%" width="116%" height="116%" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="17" result="n"/>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="4.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="1" seed="24" result="g"/>
+<feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  14 0 0 0 -3.1" result="spk"/>
+<feComposite in="d" in2="spk" operator="in"/>
+</filter>
+<mask id="taro-m" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200">
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+<path d="M100 24 C142 12 188 46 172 94 C163 120 128 126 106 152 L100 156 L94 152 C72 126 37 120 28 94 C12 46 58 12 100 24 Z"/>
+<path d="M100 150 C98 170 103 184 100 198" fill="none" stroke-width="9"/>
+</g>
+<g fill="#000" stroke="#000" stroke-linecap="round" stroke-linejoin="round"><path d="M100 100 C80 86 56 72 38 66" fill="none" stroke-width="3.4"/><path d="M100 100 C84 72 76 52 70 36" fill="none" stroke-width="3.4"/><path d="M100 100 V32" fill="none" stroke-width="3.4"/><path d="M100 100 C116 72 124 52 130 36" fill="none" stroke-width="3.4"/><path d="M100 100 C120 86 144 72 162 66" fill="none" stroke-width="3.4"/><path d="M100 100 C80 110 62 118 46 112" fill="none" stroke-width="3.4"/><path d="M100 100 C120 110 138 118 154 112" fill="none" stroke-width="3.4"/><path d="M100 100 V140" fill="none" stroke-width="3.4"/><circle cx="100" cy="100" r="5" stroke="none"/></g>
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></g>
+</mask>
+</defs>
+<g filter="url(#taro-f)"><rect x="0" y="0" width="200" height="200" fill="currentColor" mask="url(#taro-m)"/></g>
+</svg>

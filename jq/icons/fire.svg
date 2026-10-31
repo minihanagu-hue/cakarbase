@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="火塘" style="color:#1d1a17">
+<defs>
+<filter id="fire-f" x="-8%" y="-8%" width="116%" height="116%" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="27" result="n"/>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="4.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="1" seed="34" result="g"/>
+<feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  14 0 0 0 -3.1" result="spk"/>
+<feComposite in="d" in2="spk" operator="in"/>
+</filter>
+<mask id="fire-m" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200">
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+<path d="M100 10 C112 38 144 52 140 94 C138 120 122 134 100 134 C78 134 62 118 64 92 C66 76 80 68 82 50 C94 58 92 32 100 10 Z"/>
+<path d="M60 74 C46 88 40 106 50 122 C60 118 64 104 60 74 Z"/>
+<path d="M142 78 C156 92 160 108 152 122 C142 118 138 104 142 78 Z"/>
+<g transform="rotate(12 100 158)"><rect x="40" y="150" width="120" height="17" rx="8"/></g>
+<g transform="rotate(-12 100 158)"><rect x="40" y="150" width="120" height="17" rx="8"/></g>
+<ellipse cx="36" cy="180" rx="16" ry="9"/><ellipse cx="68" cy="186" rx="14" ry="8"/>
+<ellipse cx="134" cy="186" rx="14" ry="8"/><ellipse cx="166" cy="180" rx="16" ry="9"/>
+</g>
+<g fill="#000" stroke="#000" stroke-linecap="round" stroke-linejoin="round"><path d="M100 62 C108 82 122 92 118 110 C116 122 108 126 100 126 C92 126 84 120 84 108 C84 94 98 86 100 62 Z" stroke="none"/><path d="M52 106 C56 98 58 90 58 84" fill="none" stroke-width="3"/><path d="M148 108 C146 100 146 94 146 88" fill="none" stroke-width="3"/><circle cx="48" cy="152" r="3" stroke="none"/><circle cx="154" cy="152" r="3" stroke="none"/><path d="M92 154 L108 154" fill="none" stroke-width="2.6"/></g>
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"><path d="M100 92 C106 102 110 110 104 120 C98 122 93 118 93 112 C93 105 99 102 100 92 Z"/></g>
+</mask>
+</defs>
+<g filter="url(#fire-f)"><rect x="0" y="0" width="200" height="200" fill="currentColor" mask="url(#fire-m)"/></g>
+</svg>

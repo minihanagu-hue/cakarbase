@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="日期" style="color:#1d1a17">
+<defs>
+<filter id="ui-calendar-f" x="-8%" y="-8%" width="116%" height="116%" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="10" result="n"/>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="2.4" xChannelSelector="R" yChannelSelector="G" result="d"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="1" seed="17" result="g"/>
+<feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  14 0 0 0 -3.1" result="spk"/>
+<feComposite in="d" in2="spk" operator="in"/>
+</filter>
+<mask id="ui-calendar-m" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48">
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="10" width="36" height="32" rx="4"/><path d="M14 6 V14 M34 6 V14" fill="none" stroke-width="5"/></g>
+<g fill="#000" stroke="#000" stroke-linecap="round" stroke-linejoin="round"><rect x="11" y="23" width="26" height="14" rx="2" stroke="none"/><path d="M6 19 H42" stroke-width="3" fill="none"/></g>
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="30" r="2.6"/><circle cx="26" cy="30" r="2.6"/><circle cx="34" cy="30" r="2.6"/></g>
+</mask>
+</defs>
+<g filter="url(#ui-calendar-f)"><rect x="0" y="0" width="48" height="48" fill="currentColor" mask="url(#ui-calendar-m)"/></g>
+</svg>

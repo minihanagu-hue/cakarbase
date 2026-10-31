@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="對話・LINE" style="color:#1d1a17">
+<defs>
+<filter id="ui-chat-f" x="-8%" y="-8%" width="116%" height="116%" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="6" result="n"/>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="2.4" xChannelSelector="R" yChannelSelector="G" result="d"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="1" seed="13" result="g"/>
+<feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  14 0 0 0 -3.1" result="spk"/>
+<feComposite in="d" in2="spk" operator="in"/>
+</filter>
+<mask id="ui-chat-m" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48">
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"><path d="M8 8 H40 Q44 8 44 12 V30 Q44 34 40 34 H22 L12 43 L14 34 H8 Q4 34 4 30 V12 Q4 8 8 8 Z"/></g>
+<g fill="#000" stroke="#000" stroke-linecap="round" stroke-linejoin="round"><circle cx="15" cy="21" r="3" stroke="none"/><circle cx="24" cy="21" r="3" stroke="none"/><circle cx="33" cy="21" r="3" stroke="none"/></g>
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></g>
+</mask>
+</defs>
+<g filter="url(#ui-chat-f)"><rect x="0" y="0" width="48" height="48" fill="currentColor" mask="url(#ui-chat-m)"/></g>
+</svg>

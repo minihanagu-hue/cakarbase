@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="通知" style="color:#1d1a17">
+<defs>
+<filter id="ui-bell-f" x="-8%" y="-8%" width="116%" height="116%" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="6" result="n"/>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="2.4" xChannelSelector="R" yChannelSelector="G" result="d"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="1" seed="13" result="g"/>
+<feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  14 0 0 0 -3.1" result="spk"/>
+<feComposite in="d" in2="spk" operator="in"/>
+</filter>
+<mask id="ui-bell-m" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48">
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"><path d="M24 5 C16 5 12 12 12 21 V29 L6 36 H42 L36 29 V21 C36 12 32 5 24 5 Z"/><path d="M19 40 Q24 46 29 40" fill="none" stroke-width="4"/></g>
+<g fill="#000" stroke="#000" stroke-linecap="round" stroke-linejoin="round"></g>
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></g>
+</mask>
+</defs>
+<g filter="url(#ui-bell-f)"><rect x="0" y="0" width="48" height="48" fill="currentColor" mask="url(#ui-bell-m)"/></g>
+</svg>

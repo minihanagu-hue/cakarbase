@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="共享（一桌共食）" style="color:#1d1a17">
+<defs>
+<filter id="gong-xiang-f" x="-8%" y="-8%" width="116%" height="116%" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="61" result="n"/>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="4.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="1" seed="68" result="g"/>
+<feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  14 0 0 0 -3.1" result="spk"/>
+<feComposite in="d" in2="spk" operator="in"/>
+</filter>
+<mask id="gong-xiang-m" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200">
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+<path d="M14 152 H186 V166 H14 Z"/>
+<path d="M34 166 V192 M166 166 V192" fill="none" stroke-width="9"/>
+<path d="M34 110 H106 C106 136 90 152 70 152 C50 152 34 136 34 110 Z"/>
+<ellipse cx="70" cy="106" rx="34" ry="14"/>
+<path d="M118 122 H174 C174 142 162 152 146 152 C130 152 118 142 118 122 Z"/>
+<path d="M60 90 C52 80 68 72 60 58" fill="none" stroke-width="5"/>
+<path d="M82 90 C74 80 90 72 82 58" fill="none" stroke-width="5"/>
+<path d="M124 112 L176 86 M134 118 L184 94" fill="none" stroke-width="5"/>
+</g>
+<g fill="#000" stroke="#000" stroke-linecap="round" stroke-linejoin="round"><path d="M40 124 H100" fill="none" stroke-width="3.2"/><path d="M122 134 H170" fill="none" stroke-width="3.2"/><circle cx="60" cy="104" r="2.6" stroke="none"/><circle cx="74" cy="108" r="2.6" stroke="none"/><circle cx="82" cy="102" r="2.6" stroke="none"/></g>
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></g>
+</mask>
+</defs>
+<g filter="url(#gong-xiang-f)"><rect x="0" y="0" width="200" height="200" fill="currentColor" mask="url(#gong-xiang-m)"/></g>
+</svg>

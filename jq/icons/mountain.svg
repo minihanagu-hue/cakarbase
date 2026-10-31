@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="台坂山雲" style="color:#1d1a17">
+<defs>
+<filter id="mountain-f" x="-8%" y="-8%" width="116%" height="116%" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="33" result="n"/>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="4.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="1" seed="40" result="g"/>
+<feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  14 0 0 0 -3.1" result="spk"/>
+<feComposite in="d" in2="spk" operator="in"/>
+</filter>
+<mask id="mountain-m" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200">
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+<path d="M8 150 L68 58 L108 114 L140 78 L194 150 Z"/>
+<path d="M0 172 L48 112 L96 156 L142 122 L200 172 V196 H0 Z"/>
+<circle cx="160" cy="36" r="15"/>
+<path d="M16 34 q12 -9 24 0 t24 0 t24 0" fill="none" stroke-width="4.5"/>
+<path d="M30 52 q12 -9 24 0 t24 0" fill="none" stroke-width="4.5"/>
+</g>
+<g fill="#000" stroke="#000" stroke-linecap="round" stroke-linejoin="round"><path d="M16 126 Q40 118 62 126 T108 126 T156 126" fill="none" stroke-width="3.6"/><path d="M30 142 Q54 134 76 142 T124 142 T172 142" fill="none" stroke-width="3.6"/><path d="M10 180 Q34 172 56 180 T102 180 T150 180 T196 180" fill="none" stroke-width="3.4"/><path d="M24 192 Q46 186 70 192 T116 192 T164 192" fill="none" stroke-width="3.4"/><path d="M70 62 L82 92 L74 108" fill="none" stroke-width="3"/><path d="M138 82 L128 104" fill="none" stroke-width="3"/></g>
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></g>
+</mask>
+</defs>
+<g filter="url(#mountain-f)"><rect x="0" y="0" width="200" height="200" fill="currentColor" mask="url(#mountain-m)"/></g>
+</svg>

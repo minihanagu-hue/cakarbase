@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="文化工作坊（編織）" style="color:#1d1a17">
+<defs>
+<filter id="craft-f" x="-8%" y="-8%" width="116%" height="116%" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="53" result="n"/>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="4.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="1" seed="60" result="g"/>
+<feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  14 0 0 0 -3.1" result="spk"/>
+<feComposite in="d" in2="spk" operator="in"/>
+</filter>
+<mask id="craft-m" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200">
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+<ellipse cx="100" cy="146" rx="74" ry="28"/>
+<path d="M54 134 C40 100 40 72 52 40" fill="none" stroke-width="8"/>
+<path d="M76 128 C70 96 72 66 80 30" fill="none" stroke-width="8"/>
+<path d="M100 124 C100 92 102 62 104 24" fill="none" stroke-width="8"/>
+<path d="M126 128 C134 96 134 66 128 34" fill="none" stroke-width="8"/>
+<path d="M148 134 C164 102 166 74 156 44" fill="none" stroke-width="8"/>
+</g>
+<g fill="#000" stroke="#000" stroke-linecap="round" stroke-linejoin="round"><defs><clipPath id="cr-clip"><ellipse cx="100" cy="146" rx="68" ry="23"/></clipPath></defs><g clip-path="url(#cr-clip)"><path d="M-28 118 l22 52" fill="none" stroke-width="2.6"/><path d="M-18 118 l-22 52" fill="none" stroke-width="2.6"/><path d="M-16 118 l22 52" fill="none" stroke-width="2.6"/><path d="M-6 118 l-22 52" fill="none" stroke-width="2.6"/><path d="M-4 118 l22 52" fill="none" stroke-width="2.6"/><path d="M6 118 l-22 52" fill="none" stroke-width="2.6"/><path d="M8 118 l22 52" fill="none" stroke-width="2.6"/><path d="M18 118 l-22 52" fill="none" stroke-width="2.6"/><path d="M20 118 l22 52" fill="none" stroke-width="2.6"/><path d="M30 118 l-22 52" fill="none" stroke-width="2.6"/><path d="M32 118 l22 52" fill="none" stroke-width="2.6"/><path d="M42 118 l-22 52" fill="none" stroke-width="2.6"/><path d="M44 118 l22 52" fill="none" stroke-width="2.6"/><path d="M54 118 l-22 52" fill="none" stroke-width="2.6"/><path d="M56 118 l22 52" fill="none" stroke-width="2.6"/><path d="M66 118 l-22 52" fill="none" stroke-width="2.6"/><path d="M68 118 l22 52" fill="none" stroke-width="2.6"/><path d="M78 118 l-22 52" fill="none" stroke-width="2.6"/><path d="M80 118 l22 52" fill="none" stroke-width="2.6"/><path d="M90 118 l-22 52" fill="none" stroke-width="2.6"/><path d="M92 118 l22 52" fill="none" stroke-width="2.6"/><path d="M102 118 l-22 52" fill="none" stroke-width="2.6"/><path d="M104 118 l22 52" fill="none" stroke-width="2.6"/><path d="M114 118 l-22 52" fill="none" stroke-width="2.6"/><path d="M116 118 l22 52" fill="none" stroke-width="2.6"/><path d="M126 118 l-22 52" fill="none" stroke-width="2.6"/><path d="M128 118 l22 52" fill="none" stroke-width="2.6"/><path d="M138 118 l-22 52" fill="none" stroke-width="2.6"/><path d="M140 118 l22 52" fill="none" stroke-width="2.6"/><path d="M150 118 l-22 52" fill="none" stroke-width="2.6"/><path d="M152 118 l22 52" fill="none" stroke-width="2.6"/><path d="M162 118 l-22 52" fill="none" stroke-width="2.6"/><path d="M164 118 l22 52" fill="none" stroke-width="2.6"/><path d="M174 118 l-22 52" fill="none" stroke-width="2.6"/><path d="M176 118 l22 52" fill="none" stroke-width="2.6"/><path d="M186 118 l-22 52" fill="none" stroke-width="2.6"/></g><path d="M30 150 Q100 176 170 150" fill="none" stroke-width="3"/></g>
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></g>
+</mask>
+</defs>
+<g filter="url(#craft-f)"><rect x="0" y="0" width="200" height="200" fill="currentColor" mask="url(#craft-m)"/></g>
+</svg>

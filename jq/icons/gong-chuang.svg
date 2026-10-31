@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="共創（織框）" style="color:#1d1a17">
+<defs>
+<filter id="gong-chuang-f" x="-8%" y="-8%" width="116%" height="116%" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="63" result="n"/>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="4.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="1" seed="70" result="g"/>
+<feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  14 0 0 0 -3.1" result="spk"/>
+<feComposite in="d" in2="spk" operator="in"/>
+</filter>
+<mask id="gong-chuang-m" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200">
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"><rect x="26" y="26" width="148" height="148" rx="6"/>
+<path d="M54 176 C52 184 56 192 54 198 M84 176 C86 184 82 192 86 198 M114 176 C112 184 116 192 114 198 M144 176 C146 184 142 192 146 198" fill="none" stroke-width="5"/></g>
+<g fill="#000" stroke="#000" stroke-linecap="round" stroke-linejoin="round"><rect x="38" y="38" width="124" height="124" stroke="none"/></g>
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"><rect x="39" y="45" width="22" height="10" rx="4" stroke="none"/><rect x="70" y="39" width="10" height="22" rx="4" stroke="none"/><rect x="89" y="45" width="22" height="10" rx="4" stroke="none"/><rect x="120" y="39" width="10" height="22" rx="4" stroke="none"/><rect x="139" y="45" width="22" height="10" rx="4" stroke="none"/><rect x="45" y="64" width="10" height="22" rx="4" stroke="none"/><rect x="64" y="70" width="22" height="10" rx="4" stroke="none"/><rect x="95" y="64" width="10" height="22" rx="4" stroke="none"/><rect x="114" y="70" width="22" height="10" rx="4" stroke="none"/><rect x="145" y="64" width="10" height="22" rx="4" stroke="none"/><rect x="39" y="95" width="22" height="10" rx="4" stroke="none"/><rect x="70" y="89" width="10" height="22" rx="4" stroke="none"/><rect x="89" y="95" width="22" height="10" rx="4" stroke="none"/><rect x="120" y="89" width="10" height="22" rx="4" stroke="none"/><rect x="139" y="95" width="22" height="10" rx="4" stroke="none"/><rect x="45" y="114" width="10" height="22" rx="4" stroke="none"/><rect x="64" y="120" width="22" height="10" rx="4" stroke="none"/><rect x="95" y="114" width="10" height="22" rx="4" stroke="none"/><rect x="114" y="120" width="22" height="10" rx="4" stroke="none"/><rect x="145" y="114" width="10" height="22" rx="4" stroke="none"/><rect x="39" y="145" width="22" height="10" rx="4" stroke="none"/><rect x="70" y="139" width="10" height="22" rx="4" stroke="none"/><rect x="89" y="145" width="22" height="10" rx="4" stroke="none"/><rect x="120" y="139" width="10" height="22" rx="4" stroke="none"/><rect x="139" y="145" width="22" height="10" rx="4" stroke="none"/></g>
+</mask>
+</defs>
+<g filter="url(#gong-chuang-f)"><rect x="0" y="0" width="200" height="200" fill="currentColor" mask="url(#gong-chuang-m)"/></g>
+</svg>

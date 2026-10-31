@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="圈選日期" style="color:#1d1a17">
+<defs>
+<filter id="ui-cross-circle-f" x="-8%" y="-8%" width="116%" height="116%" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="14" result="n"/>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="2.4" xChannelSelector="R" yChannelSelector="G" result="d"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="1" seed="21" result="g"/>
+<feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  14 0 0 0 -3.1" result="spk"/>
+<feComposite in="d" in2="spk" operator="in"/>
+</filter>
+<mask id="ui-cross-circle-m" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48">
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"><path d="M24 5 C36 4 44 13 43 25 C42 37 33 44 22 43 C11 42 4 33 6 22 C7 12 15 6 24 5 Z"/></g>
+<g fill="#000" stroke="#000" stroke-linecap="round" stroke-linejoin="round"><path d="M24 11 C32 10 37 16 37 24 C36 32 30 37 23 37 C15 37 11 31 12 24 C13 17 17 12 24 11 Z" stroke="none"/></g>
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></g>
+</mask>
+</defs>
+<g filter="url(#ui-cross-circle-f)"><rect x="0" y="0" width="48" height="48" fill="currentColor" mask="url(#ui-cross-circle-m)"/></g>
+</svg>

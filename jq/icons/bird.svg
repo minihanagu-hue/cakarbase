@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="枝上鳥" style="color:#1d1a17">
+<defs>
+<filter id="bird-f" x="-8%" y="-8%" width="116%" height="116%" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="36" result="n"/>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="4.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="1" seed="43" result="g"/>
+<feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  14 0 0 0 -3.1" result="spk"/>
+<feComposite in="d" in2="spk" operator="in"/>
+</filter>
+<mask id="bird-m" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200">
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+<path d="M4 160 C50 150 90 132 128 120 C152 114 174 104 196 88 L198 98 C178 114 154 126 132 132 C94 144 52 164 4 174 Z"/>
+<path d="M96 140 C102 156 100 170 92 184" fill="none" stroke-width="5"/>
+<path d="M60 150 C52 134 44 126 30 122" fill="none" stroke-width="4.5"/>
+<path d="M104 102 C108 86 126 80 140 84 C152 86 156 94 152 102 C148 114 126 120 110 116 Z"/>
+<circle cx="146" cy="80" r="10"/>
+<path d="M154 78 L168 83 L154 87 Z"/>
+<path d="M108 104 L80 116 L82 106 L106 96 Z"/>
+<path d="M120 114 L116 124 M130 116 L128 126" fill="none" stroke-width="3.4"/>
+<path d="M92 182 C80 180 74 170 76 160 C88 162 94 172 92 182 Z"/>
+<path d="M30 122 C22 126 18 134 20 142 C30 140 34 130 30 122 Z"/>
+<path d="M99 172 C110 176 120 172 126 164 C114 160 104 164 99 172 Z"/>
+<path d="M170 106 C176 96 186 90 194 88" fill="none" stroke-width="3.4"/>
+</g>
+<g fill="#000" stroke="#000" stroke-linecap="round" stroke-linejoin="round"><circle cx="148" cy="78" r="2.6" stroke="none"/><path d="M116 98 C124 94 134 98 142 106" fill="none" stroke-width="3"/><path d="M80 176 C82 170 86 166 90 164" fill="none" stroke-width="2.2"/><path d="M104 170 C110 168 116 166 120 164" fill="none" stroke-width="2.2"/></g>
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></g>
+</mask>
+</defs>
+<g filter="url(#bird-f)"><rect x="0" y="0" width="200" height="200" fill="currentColor" mask="url(#bird-m)"/></g>
+</svg>

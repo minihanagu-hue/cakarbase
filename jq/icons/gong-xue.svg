@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="共學（書頁・新芽）" style="color:#1d1a17">
+<defs>
+<filter id="gong-xue-f" x="-8%" y="-8%" width="116%" height="116%" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="59" result="n"/>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="4.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="1" seed="66" result="g"/>
+<feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  14 0 0 0 -3.1" result="spk"/>
+<feComposite in="d" in2="spk" operator="in"/>
+</filter>
+<mask id="gong-xue-m" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200">
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+<path d="M18 122 C50 108 82 110 100 126 V182 C82 166 50 164 18 176 Z"/>
+<path d="M182 122 C150 108 118 110 100 126 V182 C118 166 150 164 182 176 Z"/>
+<path d="M100 128 V72" fill="none" stroke-width="7"/>
+<path d="M100 100 C76 100 62 86 62 66 C86 66 100 80 100 100 Z"/>
+<path d="M100 80 C100 56 116 42 142 42 C142 66 126 80 100 80 Z"/>
+<path d="M100 36 C106 26 116 24 124 28 C118 36 108 38 100 36 Z"/>
+</g>
+<g fill="#000" stroke="#000" stroke-linecap="round" stroke-linejoin="round"><path d="M30 136 C50 130 70 132 86 142" fill="none" stroke-width="3"/><path d="M30 150 C50 144 70 146 86 156" fill="none" stroke-width="3"/><path d="M30 164 C50 158 70 160 86 170" fill="none" stroke-width="3"/><path d="M170 136 C150 130 130 132 114 142" fill="none" stroke-width="3"/><path d="M170 150 C150 144 130 146 114 156" fill="none" stroke-width="3"/><path d="M170 164 C150 158 130 160 114 170" fill="none" stroke-width="3"/><path d="M100 134 V180" fill="none" stroke-width="3.4"/><path d="M98 96 C84 92 76 84 72 74" fill="none" stroke-width="2.4"/><path d="M104 76 C116 70 126 60 134 52" fill="none" stroke-width="2.4"/></g>
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></g>
+</mask>
+</defs>
+<g filter="url(#gong-xue-f)"><rect x="0" y="0" width="200" height="200" fill="currentColor" mask="url(#gong-xue-m)"/></g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="參訪交流（對話）" style="color:#1d1a17">
+<defs>
+<filter id="visit-f" x="-8%" y="-8%" width="116%" height="116%" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="55" result="n"/>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="4.2" xChannelSelector="R" yChannelSelector="G" result="d"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="1" seed="62" result="g"/>
+<feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  14 0 0 0 -3.1" result="spk"/>
+<feComposite in="d" in2="spk" operator="in"/>
+</filter>
+<mask id="visit-m" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200">
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"><path d="M18 28 H112 Q126 28 126 42 V92 Q126 106 112 106 H70 L42 134 L46 106 H32 Q18 106 18 92 Z"/></g>
+<g fill="#000" stroke="#000" stroke-linecap="round" stroke-linejoin="round"><path d="M84 86 H174 Q190 86 190 102 V142 Q190 158 174 158 H152 L128 184 L132 158 H100 Q84 158 84 142 Z" stroke-width="12"/><circle cx="46" cy="66" r="6.5" stroke="none"/><circle cx="72" cy="66" r="6.5" stroke="none"/><circle cx="98" cy="66" r="6.5" stroke="none"/></g>
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"><path fill-rule="evenodd" d="M84 86 H174 Q190 86 190 102 V142 Q190 158 174 158 H152 L128 184 L132 158 H100 Q84 158 84 142 Z M112 140 C112 118 128 108 162 108 C162 132 146 144 112 140 Z"/></g>
+</mask>
+</defs>
+<g filter="url(#visit-f)"><rect x="0" y="0" width="200" height="200" fill="currentColor" mask="url(#visit-m)"/></g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="人數" style="color:#1d1a17">
+<defs>
+<filter id="ui-people-f" x="-8%" y="-8%" width="116%" height="116%" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="8" result="n"/>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="2.4" xChannelSelector="R" yChannelSelector="G" result="d"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="1" seed="15" result="g"/>
+<feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  14 0 0 0 -3.1" result="spk"/>
+<feComposite in="d" in2="spk" operator="in"/>
+</filter>
+<mask id="ui-people-m" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48">
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"><circle cx="17" cy="15" r="7"/><circle cx="34" cy="18" r="6"/><path d="M4 41 C4 31 10 26 17 26 C24 26 30 31 30 41 Z"/><path d="M29 41 C29 33 33 29 37 29 C42 29 45 33 45 41 Z"/></g>
+<g fill="#000" stroke="#000" stroke-linecap="round" stroke-linejoin="round"></g>
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></g>
+</mask>
+</defs>
+<g filter="url(#ui-people-f)"><rect x="0" y="0" width="48" height="48" fill="currentColor" mask="url(#ui-people-m)"/></g>
+</svg>

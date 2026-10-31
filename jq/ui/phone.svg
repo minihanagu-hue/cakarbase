@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="電話" style="color:#1d1a17">
+<defs>
+<filter id="ui-phone-f" x="-8%" y="-8%" width="116%" height="116%" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="7" result="n"/>
+<feDisplacementMap in="SourceGraphic" in2="n" scale="2.4" xChannelSelector="R" yChannelSelector="G" result="d"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="1" seed="14" result="g"/>
+<feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  14 0 0 0 -3.1" result="spk"/>
+<feComposite in="d" in2="spk" operator="in"/>
+</filter>
+<mask id="ui-phone-m" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48">
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"><path d="M14 6 C18 6 19 10 20 14 C20 17 17 18 17 20 C19 25 23 29 28 31 C30 31 31 28 34 28 C38 29 42 30 42 34 C42 39 38 43 32 42 C19 40 8 29 6 16 C5 10 9 6 14 6 Z"/></g>
+<g fill="#000" stroke="#000" stroke-linecap="round" stroke-linejoin="round"></g>
+<g fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></g>
+</mask>
+</defs>
+<g filter="url(#ui-phone-f)"><rect x="0" y="0" width="48" height="48" fill="currentColor" mask="url(#ui-phone-m)"/></g>
+</svg>
